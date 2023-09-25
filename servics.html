@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+
+    <!-- Include Bootstrap CSS (you need to download and host it or use a CDN) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Include your custom CSS styles -->
+    <link rel="stylesheet" href="styles.css"> <!-- Create this CSS file with your custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Include Bootstrap JavaScript and jQuery (you need to download and host them or use a CDN) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Include your custom JavaScript file for modal functionality -->
+    <script src="scripts.js"></script> <!-- Create this JavaScript file with your custom code -->
+</head>
+<body>
+    <header>
+	
+        <nav>
+            <div class="logo">
+                <img src="images/ola.png" alt="Logo" style="height: 40px; width: 40px; margin-right: 10px;">
+                <h1 style="font-size: 20px;">AYYONMY</h1>
+            </div>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="index.html" target="_blank">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+        
+    
+        <main>
+            <section>
+                <h3>Welcome to Your AYYONMY</h3>
+                <h1>DO COME & VISIT <span class="change_content"> </span> <span style="margin-top: -10px;"> | </span> </h1>
+                <p>"We create stunning websites and web applications tailored to your needs."</p>
+                <a href="#" class="btnone">learn more</a>
+            </section>
+        </main>
+    
+    
+    </header>
+    
+    <!-- Navigation bar or header content can be added here -->
+
+    <section class="bg-light" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <!-- Portfolio Item 1: Customize Website -->
+                <div class="col-lg-4">
+                    <div class="portfolio-item">
+                        <a href="#portfolioModal6" data-toggle="modal">
+                            <img class="img-fluid" src="images/img/Architech.jpg" alt="architect">
+                        </a>
+                        <h3>Customize Website</h3>
+                        <p class="text-muted">Architecture Website (Form and Function)</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2: Glass Software -->
+                <div class="col-lg-4">
+                    <div class="portfolio-item">
+                        <a href="#portfolioModal4" data-toggle="modal">
+                            <img class="img-fluid" src="images/img/glasssSfull.jpg" alt="glass">
+                        </a>
+                        <h3>Glass Software</h3>
+                        <p class="text-muted">Glass Management Application</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3: Lawn & Hall Management Software -->
+                <div class="col-lg-4">
+                    <div class="portfolio-item">
+                        <a href="#portfolioModal5" data-toggle="modal">
+                            <img class="img-fluid" src="images/img/Lawn-Portfolio.jpg" alt="lawn">
+                        </a>
+                        <h3>Lawn & Hall Management Software</h3>
+                        <p class="text-muted">Lawn & Hall Management Application</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals -->
+    <!-- Modal 1: Customize Website -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase">Customize Website</h2>
+                                <p class="item-intro text-muted">Architecture Website (Form and Function)</p>
+                                <img class="img-fluid d-block mx-auto" src="images/img/Architech.jpg" alt="architect">
+                                <p>Providing innovative and customized website solutions to our customers. We specialize in creative and innovative platforms to provide solutions for customized websites. With adopted technology solutions to meet your company's unique needs and providing an attractive, functional website design that will stand out from the crowd. We have worked on many custom websites with complex features that have provided significant returns for our clients.</p>
+                                <ul class="list-inline">
+                                    <li>Date: March 2018</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2: Glass Software -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase">Glass Software</h2>
+                                <p class="item-intro text-muted">Glass Management Application</p>
+                                <img class="img-fluid d-block mx-auto" src="images/img/glasssSfull.jpg" alt="glass">
+                                <p>Glass ERP makes your calculations faster and easier with just one click. You can also track the production of glass products using customized layouts. This software is helpful for all types of glass businesses, helping them convert raw products into finished products. It improves customer support and services, provides real-time data from various departments for quick decision-making, and reduces paperwork and duplication of entries.</p>
+                                <ul class="list-inline">
+                                    <li>Date: September 2018</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3: Lawn & Hall Management Software -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2 class="text-uppercase">Lawn & Hall Management Software</h2>
+                                <p class="item-intro text-muted">Lawn & Hall Management Application</p>
+                                <img class="img-fluid d-block mx-auto" src="images/img/Lawn-Portfolio.jpg" alt="lawn">
+                                <p>Lawn & Hall Management Software understands the needs of lawn care companies, both large and small. It is an all-inclusive software designed to make business management easier. Our software focuses on giving customers the best turf, booking appointments, updating recent gallery events on the website for accurate decision-making, getting better reviews, and creating customer satisfaction.</p>
+                                <ul class="list-inline">
+                                    <li>Date: August 2018</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Include any necessary JavaScript libraries/scripts at the end of the body -->
+        <!-- Include Bootstrap JavaScript and jQuery (CDN links) at the end of the body -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
