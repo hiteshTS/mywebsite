@@ -366,6 +366,19 @@ header.masthead .intro-text .intro-heading {
       font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'
   }
 }
+.styled-button {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+}
+
+/* Style the button on hover */
+.styled-button:hover {
+    background-color: #0056b3; /* Darker blue background color on hover */
+}
 
 .service-heading {
   margin: 15px 0;
